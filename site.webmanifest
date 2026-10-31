@@ -1,0 +1,9 @@
+{
+  "name": "Jenner Alperez Navida Portfolio",
+  "short_name": "AR Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f0e8",
+  "theme_color": "#151515",
+  "description": "A graphic design and web creative portfolio starter."
+}
