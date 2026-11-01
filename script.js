@@ -622,7 +622,7 @@ contactForm?.addEventListener("submit", (event) => {
     return;
   }
   const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-  window.location.href = `mailto:hello@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:jenner.navida@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   formStatus.textContent =
     "Your email app should open with the message prepared.";
   formStatus.classList.remove("error");
