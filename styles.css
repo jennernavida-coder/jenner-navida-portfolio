@@ -1874,3 +1874,19 @@ em {
     min-height: 21rem;
   }
 }
+/* Improve contrast in dark mode */
+[data-theme="dark"] .projects-section,
+[data-theme="dark"] .education-section {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+[data-theme="dark"] .cv-banner {
+  background: #1b3040;
+  color: #edf6fc;
+}
+
+[data-theme="dark"] .cv-banner .section-number,
+[data-theme="dark"] .cv-banner em {
+  color: #ffad62;
+}
