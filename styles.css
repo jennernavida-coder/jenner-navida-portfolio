@@ -1852,6 +1852,13 @@ em {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+.portrait-photo {
+  display: block;
+  width: 100%;
+  height: 22rem;
+  margin: 1.25rem 0;
+  object-fit: cover;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .back-to-top {
