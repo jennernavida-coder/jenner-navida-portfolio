@@ -1865,3 +1865,12 @@ em {
     transition: none;
   }
 }
+@media (max-width: 760px) {
+  .portrait-photo {
+    height: 12rem;
+  }
+
+  .hero-board {
+    min-height: 21rem;
+  }
+}
