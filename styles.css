@@ -1890,3 +1890,11 @@ em {
 [data-theme="dark"] .cv-banner em {
   color: #ffad62;
 }
+@media (max-width: 760px) {
+  .portrait-photo {
+    height: auto;
+    max-height: 22rem;
+    object-fit: contain;
+  }
+}
+
