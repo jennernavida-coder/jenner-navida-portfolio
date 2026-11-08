@@ -218,23 +218,39 @@ function populateProjectFilters() {
 }
 
 function renderProjectImage(project) {
+  let imageMarkup;
+
   if (project.image?.trim()) {
     const altText = project.imageAlt || `Screenshot of ${project.title}`;
     const fitClass = project.imageFit === "contain" ? " image-fit-contain" : "";
-    return `
+
+    imageMarkup = `
       <div class="project-preview project-preview-image${fitClass}">
         <img src="${project.image}" alt="${altText}" loading="eager" decoding="sync">
+      </div>
+    `;
+  } else {
+    imageMarkup = `
+      <div class="project-preview" role="img" aria-label="Image placeholder for ${project.title}">
+        <strong>${project.imageLabel || "IMG"}</strong>
+        <span>Add image path in script.js</span>
       </div>
     `;
   }
 
   return `
-    <div class="project-preview" role="img" aria-label="Image placeholder for ${project.title}">
-      <strong>${project.imageLabel || "IMG"}</strong>
-      <span>Add image path in script.js</span>
-    </div>
+    <button
+      class="project-photo-button project-view-button"
+      type="button"
+      data-project-id="${project.id}"
+      aria-label="View project details: ${project.title}"
+      aria-haspopup="dialog"
+    >
+      ${imageMarkup}
+    </button>
   `;
 }
+
 
 function renderProjectLinks(project) {
   const links = [];
