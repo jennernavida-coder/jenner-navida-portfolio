@@ -1897,4 +1897,20 @@ em {
     object-fit: contain;
   }
 }
+.project-photo-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.project-photo-button:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 4px;
+}
 
