@@ -119,7 +119,7 @@ const projects = [
     detailUrl: "",
     projectUrl: "",
     githubUrl: "",
-    demoUrl: "",
+    demoUrl: "https://app.maze.co/report/M2L5/5ev957mmel9ee6/intro",
     features: ["Goal-based task", "Exact-path criterion", "Mobile preview"],
   },
 ];
