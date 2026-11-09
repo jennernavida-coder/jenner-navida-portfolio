@@ -91,7 +91,7 @@ const projects = [
     role: "Student coursework",
     status: "Screen design",
     detailUrl: "",
-    projectUrl: "",
+    projectUrl: "https://www.figma.com/design/ZoJVRfgcCq2mTutmpBjnTa/Untitled?node-id=0-1&t=3IpuXcpX9GUJGVpo-1",
     githubUrl: "",
     demoUrl: "",
     features: [
