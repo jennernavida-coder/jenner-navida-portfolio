@@ -4,66 +4,6 @@
  * Leave image or link fields blank when they are unavailable.
  */
 const projects = [
-    {
-    id: "navida-brand-design",
-    title: "Navida Brand Design",
-    category: "Graphic Design",
-    type: "Logo identity design",
-    description:
-      "Logo design work for the Navida brand, presented in horizontal, vertical, icon, badge, and sketch versions.",
-    year: "", // Add the actual project year
-    technologies: [vector.io], // Add the tools you actually used, if you want to list them
-    image: "assets/projects/vectorink-download.png",
-    imageAlt: "Horizontal version of the Navida brand logo",
-    imageLabel: "ND",
-    imageFit: "contain",
-    gallery: [
-      {
-        src: "assets/projects/vectorink-download(1).png",
-        alt: "Horizontal version of the Navida brand logo",
-        caption: "Horizontal logo",
-        fit: "contain",
-      },
-      {
-        src: "assets/projects/navida-brand-vertical.png",
-        alt: "Vertical version of the Navida brand logo",
-        caption: "Vertical logo",
-        fit: "contain",
-      },
-      {
-        src: "assets/projects/vectorink-download(2).png",
-        alt: "Icon version of the Navida brand logo",
-        caption: "Logo icon",
-        fit: "contain",
-      },
-      {
-        src: "assets/projects/navida-brand-badge.png",
-        alt: "Badge version of the Navida brand logo",
-        caption: "Logo badge",
-        fit: "contain",
-      },
-      {
-        src: "assets/projects/navida-brand-sketch.png",
-        alt: "Sketch exploration for the Navida brand logo",
-        caption: "Logo sketch",
-        fit: "contain",
-      },
-    ],
-    role: "Logo designer",
-    status: "Logo design variations",
-    detailUrl: "",
-    projectUrl: "",
-    githubUrl: "",
-    demoUrl: "",
-    features: [
-      "Horizontal logo",
-      "Vertical logo",
-      "Icon",
-      "Badge",
-      "Sketch exploration",
-    ],
-  },
-
   {
     id: "urban-threads-promo",
     title: "Urban Threads — Back-to-School Promo Graphics",
@@ -181,6 +121,65 @@ const projects = [
     githubUrl: "",
     demoUrl: "https://app.maze.co/maze-preview/mazes/508170547",
     features: ["Goal-based task", "Exact-path criterion", "Mobile preview"],
+  },
+    {
+    id: "navida-brand-design",
+    title: "Navida Brand Design",
+    category: "Graphic Design",
+    type: "Logo identity design",
+    description:
+      "Logo design work for the Navida brand, presented in horizontal, vertical, icon, badge, and sketch versions.",
+    year: "", // Add the actual project year
+    technologies: [vector.io], // Add the tools you actually used, if you want to list them
+    image: "assets/projects/vectorink-download.png",
+    imageAlt: "Horizontal version of the Navida brand logo",
+    imageLabel: "ND",
+    imageFit: "contain",
+    gallery: [
+      {
+        src: "assets/projects/vectorink-download(1).png",
+        alt: "Horizontal version of the Navida brand logo",
+        caption: "Horizontal logo",
+        fit: "contain",
+      },
+      {
+        src: "assets/projects/navida-brand-vertical.png",
+        alt: "Vertical version of the Navida brand logo",
+        caption: "Vertical logo",
+        fit: "contain",
+      },
+      {
+        src: "assets/projects/vectorink-download(2).png",
+        alt: "Icon version of the Navida brand logo",
+        caption: "Logo icon",
+        fit: "contain",
+      },
+      {
+        src: "assets/projects/navida-brand-badge.png",
+        alt: "Badge version of the Navida brand logo",
+        caption: "Logo badge",
+        fit: "contain",
+      },
+      {
+        src: "assets/projects/navida-brand-sketch.png",
+        alt: "Sketch exploration for the Navida brand logo",
+        caption: "Logo sketch",
+        fit: "contain",
+      },
+    ],
+    role: "Logo designer",
+    status: "Logo design variations",
+    detailUrl: "",
+    projectUrl: "",
+    githubUrl: "",
+    demoUrl: "",
+    features: [
+      "Horizontal logo",
+      "Vertical logo",
+      "Icon",
+      "Badge",
+      "Sketch exploration",
+    ],
   },
 ];
 
