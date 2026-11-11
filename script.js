@@ -149,7 +149,7 @@ const projects = [
         fit: "contain",
       },
       {
-        src: "assets/projects/vectorink-download (2,).png",
+        src: "assets/projects/vectorink-download (2).png",
         alt: "Icon version of the Navida brand logo",
         caption: "Logo icon",
         fit: "contain",
