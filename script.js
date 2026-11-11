@@ -130,7 +130,7 @@ const projects = [
     description:
       "Logo design work for the Navida brand, presented in horizontal, vertical, icon, badge, and sketch versions.",
     year: "", // Add the actual project year
-    technologies: ["vector.io"], // Add the tools you actually used, if you want to list them
+    technologies: [], // Add the tools you actually used, if you want to list them
     image: "assets/projects/vectorink-download.png",
     imageAlt: "Horizontal version of the Navida brand logo",
     imageLabel: "ND",
