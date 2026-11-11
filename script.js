@@ -143,7 +143,7 @@ const projects = [
         fit: "contain",
       },
       {
-        src: "assets/projects/navida-brand-vertical.png",
+        src: "assets/projects/Messenger_creation_C9D9AF84-AD0F-4DB6-8F2F-F24229A79C79.png.jpg",
         alt: "Vertical version of the Navida brand logo",
         caption: "Vertical logo",
         fit: "contain",
