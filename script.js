@@ -13,13 +13,13 @@ const projects = [
       "Logo design work for the Navida brand, presented in horizontal, vertical, icon, badge, and sketch versions.",
     year: "", // Add the actual project year
     technologies: [vector.io], // Add the tools you actually used, if you want to list them
-    image: "assets/projects/navida-brand-horizontal.png",
+    image: "assets/projects/vectorink-download.png",
     imageAlt: "Horizontal version of the Navida brand logo",
     imageLabel: "ND",
     imageFit: "contain",
     gallery: [
       {
-        src: "assets/projects/navida-brand-horizontal.png",
+        src: "assets/projects/vectorink-download(1).png",
         alt: "Horizontal version of the Navida brand logo",
         caption: "Horizontal logo",
         fit: "contain",
@@ -31,7 +31,7 @@ const projects = [
         fit: "contain",
       },
       {
-        src: "assets/projects/navida-brand-icon.png",
+        src: "assets/projects/vectorink-download(2).png",
         alt: "Icon version of the Navida brand logo",
         caption: "Logo icon",
         fit: "contain",
