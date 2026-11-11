@@ -137,7 +137,7 @@ const projects = [
     imageFit: "contain",
     gallery: [
       {
-        src: "assets/projects/vectorink-download(1).png",
+        src: "assets/projects/vectorink-download (1).png",
         alt: "Horizontal version of the Navida brand logo",
         caption: "Horizontal logo",
         fit: "contain",
@@ -149,28 +149,23 @@ const projects = [
         fit: "contain",
       },
       {
-        src: "assets/projects/vectorink-download(2).png",
+        src: "assets/projects/vectorink-download (2,).png",
         alt: "Icon version of the Navida brand logo",
         caption: "Logo icon",
         fit: "contain",
       },
       {
-        src: "assets/projects/navida-brand-badge.png",
+        src: "assets/projects/vectorink-download.png",
         alt: "Badge version of the Navida brand logo",
         caption: "Logo badge",
         fit: "contain",
       },
-      {
-        src: "assets/projects/navida-brand-sketch.png",
-        alt: "Sketch exploration for the Navida brand logo",
-        caption: "Logo sketch",
-        fit: "contain",
-      },
+      
     ],
     role: "Logo designer",
     status: "Logo design variations",
     detailUrl: "",
-    projectUrl: "",
+    projectUrl: "https://drive.google.com/drive/folders/1FDCpjercuH3V2XRoiTEmpi7LFjzIf0zQ",
     githubUrl: "",
     demoUrl: "",
     features: [
@@ -178,7 +173,6 @@ const projects = [
       "Vertical logo",
       "Icon",
       "Badge",
-      "Sketch exploration",
     ],
   },
 ];
