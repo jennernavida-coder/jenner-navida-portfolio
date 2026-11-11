@@ -175,7 +175,12 @@ const projects = [
         caption: "Logo badge",
         fit: "contain",
       },
-      
+        {
+        src: "assets/projects/IMG_20260817_125744.jpg",
+        alt: "Badge version of the Navida brand logo",
+        caption: "Logo badge",
+        fit: "contain",
+      },
     ],
     role: "Logo designer",
     status: "Logo design variations",
