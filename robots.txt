@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourusername.github.io/my-portfolio/sitemap.xml
+Sitemap: Sitemap: https://jennernavida-coder.github.io/jenner-navida-portfolio/sitemap.xml
