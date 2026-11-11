@@ -88,6 +88,21 @@ const projects = [
       "Mobile resort offers screen with a beach sunset background and hut listing",
     imageLabel: "SS",
     imageFit: "contain",
+        gallery: [
+      {
+        src: "assets/projects/sunset-shore-resort-ui.jpg",
+        alt: "Mobile resort offers screen with a beach sunset background and hut listing",
+        caption: "Main Figma screen",
+        fit: "contain",
+      },
+      {
+        src: "assets/projects/IMG_20261111_221015.jpg",
+        alt: "Supporting screen from the Sunset Shore Resort mobile UI design",
+        caption: "Supporting Figma screen",
+        fit: "contain",
+      },
+    ],
+
     role: "Student coursework",
     status: "Screen design",
     detailUrl: "",
